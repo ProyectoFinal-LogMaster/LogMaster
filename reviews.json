@@ -1,0 +1,24 @@
+{
+  "reviews": [
+    {
+      "username": "Lucas",
+      "message": "Me gusta ya que puedo ver cuando mis profesores asisten o no."
+    },
+    {
+      "username": "Carla Fernandez",
+      "message": "El nuevo sistema ha hecho que el control de nuestros recursos sea mucho más fácil. Ya no tenemos que lidiar con miles de papeles y los informes son mucho más fiables."
+    },
+    {
+      "username": "Diego Rodríguez",
+      "message": "La gestión del laboratorio ha mejorado enormemente con la nueva herramienta. Los estudiantes reportan el estado de las máquinas y los docentes verifican rápidamente. Todo es más fluido."
+    },
+    {
+      "username": "Juan Pérez",
+      "message": "Desde que implementamos el nuevo control, hemos visto una gran mejora en la organización y el seguimiento de los equipos. Todo está mucho más claro y ordenado."
+    },
+    {
+      "username": "Martín González",
+      "message": "La nueva herramienta para gestionar el laboratorio ha sido un cambio total. Ahora sabemos exactamente el estado de cada máquina y quién la está usando. Es mucho más eficiente."
+    }
+  ]
+}

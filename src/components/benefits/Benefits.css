@@ -1,0 +1,54 @@
+.benefits {
+  width: 80%;
+  max-width: 900px;
+  color: black;
+
+  display: grid;
+  grid-template-columns: 1;
+  gap: 3rem;
+  justify-content: center;
+}
+.benefits h2.title {
+  margin-bottom: 4rem;
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+}
+.benefits h2.title span {
+  color: #4bdfff;
+}
+.benefit {
+  width: 100%;
+  padding: 1.2rem;
+  background-color: white;
+  border-radius: 12px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+  align-items: center;
+}
+.benefit p {
+  line-height: 1.6rem;
+  color: black;
+}
+
+.benefit .title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+@media (min-width: 1024px) {
+  .benefits {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .customer-service {
+    grid-column: 1/4;
+  }
+  .benefits h2 {
+    grid-column: 1/4;
+  }
+}
